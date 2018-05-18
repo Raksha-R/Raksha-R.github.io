@@ -1,1 +1,201 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="icon" type="image/x-icon" href="imgs/one.png">
+	<title>Raksha</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<div>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</div>
+	<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+	</script>
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body class="img-responsive" style="font-family: 'Barlow Semi Condensed', sans-serif;
+color: white; letter-spacing: 5px;">
+<div class="full-page overflow-hidden" style="height: 100vh">
+	<div style="width: 100%">
+		<ul class="nav justify-content-center fixed-top navbar-dark bg-dark overflow-hidden">
+			<div class="container" style="font-family: 'Barlow Semi Condensed', sans-serif; font-size: 1em; letter-spacing: 2px">
+				<div class="row" style="margin-top: 5px">
+					<div class="navBtn" style="padding: 0; width: 25%">
+						<a href="#About" style="color: #cdeef4;">About</a>
+					</div>
+					<div class="navBtn" style="padding: 0; width: 25%">
+						<a href="#Skills" style="color: #cdeef4;">Skills</a>
+					</div>
+					<div class="navBtn" style="padding: 0; width: 25%">
+						<a href="#Projects" style="color: #cdeef4;">Projects</a>
+					</div>
+					<div class="navBtn" style="padding: 0; width: 25%">
+						<a href="#Contact" style="color: #cdeef4;">Contact</a>
+					</div>
+				</div>
+			</div>
+		</ul>
+	</div>
+	<!-- home page -->
+	<div style="color: white;">
+		<div class="padding-top-100 overflow-hidden">
+			<div class="text-center" >
+				<div >
+					<div style="color: white">
+						<h1 style="font-size: 200%;">
+						Hello-World,</h1>
+					</div>
+					<legend style="font-size: 200">I'm</legend>
+					<legend style="font-size: 400%">Raksha Ramachandra</legend>
+					<legend style="font-size: 200%;">#CodeGeek</legend>
+					<div class="container">
+						<div class="text-center" style="margin-top: 10%; font-size: 300%;">
+
+							<a href="https://github.com/pujith-m">
+								<i class="fab fa-github-square"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/raksha-r/GIT GIGIGIGIGI">
+								<i class="fab fa-linkedin"></i>
+							</a>
+							<a href="https://www.facebook.com/profile.php?id=100008305359532">
+								<i class="fab fa-facebook"></i>
+							</a>
+							<a href="https://www.hackerrank.com/pujith_m95">
+								<img src="imgs/hr.png" height="44,4px" width="44.4px" style="
+								border-radius: 10%; position: relative; top: -6px;">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- About page  -->
+<div id="About" class="full-page" 
+style=" position: relative; background-color: rgb(0,0,1,0.8); padding: 5% 0 12%;
+margin-top: 100vh; padding-bottom: 5%; color: white; height: 100vh;">
+<div class=" text-center">
+	<div>
+		<h1>About me</h1>
+	</div>
+	<div style="padding: 8% 0">
+		<p style="font-size: 150%">
+			Creating several applications while I tinker deeper into the realm of code mastery.<br/>
+			Innovation, Integration, and Imagination are my rocket fuels while I shoot myself into the infinite space of creativity.
+		</p>
+	</div>
+</div>
+</div>
+
+<!-- Skills page -->
+<div id="Skills" style="color: white;height: 100vh;">
+	<div class="text-center" style="padding: 5% 0 12%;font-size: 300%;">
+		<div style="padding: 5% 0 12%;">
+			<h1>Skills</h1>
+		</div>
+		<div>
+			<i class="fab fa-java"></i>
+			<i class="fab fa-python"></i>
+			<i class="fab fa-node"></i>
+			<i class="fab fa-js"></i>	
+			<i class="fab fa-apple"></i>		
+		</div>
+	</div>
+</div>
+
+<!-- Projects -->
+<div id="Projects" class="text-center" style="background-color: rgb(0,0,1,0.8);padding-top: 5%; padding-bottom: 5%; color: white;">
+	<div style="font-size: 300%;">
+		<h1>Projects</h1>
+	</div>
+	<div class="margin-top">
+		<a href="https://github.com/Pujith-M/Chase-Two-Thr33">
+			<H2><u>Chase To Three</u></H2>
+		</a>
+		<h5>An IOS application</h5>
+		<p>
+			It is an ancient game played by the villagers which is similar to Tic-
+			Tac-Toe. It is available for both single player and double player game. The player who succeeds in placing
+			three of their marks in a horizontal, vertical, or diagonal row wins the game.
+		</p>
+	</div>
+	<div class="margin-top">
+		<a href="https://github.com/Pujith-M/Fighter-Jet">
+			<H2><u>Fighter Jet</u></H2>
+		</a>
+		<h5>A graphical application using Opengl library</h5>
+		<p>
+			The objectives of this game is to fly a jet in space and to create an
+			emulation of Fighter Jet. The viewer is allowed to operate the jet and blast of the obstacles at
+			various difficulty levels.
+		</p>
+	</div>
+	<div class="margin-top">
+		<a href="https://campus-io.herokuapp.com/">
+			<H2><u>Campus.io</u></H2>
+		</a>
+		<h5>A web application</h5>
+		<p>
+			It's a web application where it helps the students who are trying to improve their Programming IQ with the help of quizzes posted by support members.
+		</p>
+	</div>
+</div>
+<!-- contact -->
+<div id="Contact" class="text-center" style="padding-top: 5%; padding-bottom: 5%;
+color: white;height: 100vh;">
+	<div>
+		<div style="font-size: 300%;">
+			<h1>Contact me at--</h1>
+		</div>
+	</div>
+	<div style="padding-top: 5%; font-size: 3vw; letter-spacing: 3px;">
+		<i class="fas fa-phone"></i>  <a href="tel:+91-7975473211">
+			<u>+91-7975473211</u>
+		</a>
+		<div  style="padding-top: 40px; font-size: 4vw;">
+			<i class="fas fa-envelope"></i>
+				<a href="mailto:raksharamachandra316@gmail.com">
+					<u>raksharamachandra316@gmail.com</u></h1>
+				</a>
+			
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

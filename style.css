@@ -1,0 +1,111 @@
+.img-responsive {
+  /*background: url(imgs/bg.png);*/
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imgs/bg.png');
+  background-size: cover;
+  height: 100%;
+  filter: alpha(opacity=50);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+.overflow-hidden{
+  overflow:hidden;
+}
+
+.padding-top-100{
+  padding-top: 15%;
+}
+.margin-top{
+  margin-top: 10%;
+}
+
+.height-100{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: #232323;
+    max-height: 100%;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.text-on-img { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.margin-auto{
+  margin : auto;
+}
+
+a{
+  color: white;
+}
+
+#screenFiller {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+p{
+  letter-spacing: 2px;
+}
+
+a:hover {
+  color: grey;
+}
+
+.full-page {
+position:absolute;
+top:0;
+right:0;
+bottom:0;
+left:0;
+}
